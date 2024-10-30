@@ -1,0 +1,130 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background: #161513;
+  color: white;
+  font-family: 'outfit', sans-serif;
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .achievements-gradient{
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .services-gradient{
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } 
+  .contact-gradient{
+    background: linear-gradient(270deg, #df8908 80%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .contact-detail{
+    display: flex; 
+    align-items: center;
+    gap:20px;
+  }
+  .input-style{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: 'Outfit';
+    font-size: 20px;
+  }
+  .label-style{
+    color: #D8D8D8;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .nav-menu{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    cursor: pointer;
+  }
+  .nav-menu-img{
+    display: flex;
+    margin:auto;
+  }
+  .anchor-link{
+    text-decoration: none;
+    color: white;
+  } 
+  @media(min-width:768px) {
+    /* .nav-menu{
+      font-size: 30px;
+      padding-left: 100px;
+      gap: 20px;
+      flex-direction: row;
+    } */
+    /*.navbar{
+      margin:20px 50px;
+
+    }
+    .nav-connect{
+      display: none;
+    } 
+     .nav-mob-open{
+      display: block;
+      position: fixed;
+      right: 30px;
+    }
+    .nav-mob-close{
+      display: block;
+      position: relative;
+      top: 30px;
+      left:290px;
+      width: 30px;
+    }
+    .nav-menu{
+      position: fixed;
+      flex-direction: column;
+      align-items: center;
+      top:0;
+      gap:30px;
+      background: #1F0016;
+      width:350px;
+      height: 100%;
+      z-index: 2;
+      transition: right 0.5s;
+      right: -350px; 
+      }
+    
+  
+  }
+
+
+  @media(max-width:1280px){
+    .nav-connect{
+      display: none;
+    }
+  }
+    */
+  }
+} 
